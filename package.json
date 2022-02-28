@@ -1,0 +1,29 @@
+{
+  "name": "write_docker_daemon",
+  "version": "1.0.0",
+  "description": "An NPX to manually write Docker Daemon JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "sudo node index.js",
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolksRat71/write_docker_daemon.git"
+  },
+  "keywords": [
+    "Docker",
+    "Daemon",
+    "Writing",
+    "Container"
+  ],
+  "author": "Nathaniel J. Ryan",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/VolksRat71/write_docker_daemon/issues"
+  },
+  "homepage": "https://github.com/VolksRat71/write_docker_daemon#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
